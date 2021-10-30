@@ -53,64 +53,7 @@ body:
       description: What did actually happen?
       placeholder: 'Example: The Piston does not extend.'
     validations:
-      required: true
-  - type: textarea
-    id: repro-steps
-    attributes:
-      label: Reproduction Steps
-      description: >-
-        Provide information on how to reproduce this bug. You can either
-        fill this section in like the example below or do something else just
-        make sure your instructions are minimal and clear, as other people will
-        need to be able to replicate your issue.
-      placeholder: |
-        Example:
-        1. Place a Redstone Lamp in front of a Redstone Repeater
-        2. Use a Lever to activate the Redstone Repeater
-        3. Nothing happens
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: >-
-        # System Information
-
-
-        You can obtain this information from the right-side of the in-game debug
-        screen (F3) or through using
-        [DxDiag](https://support.microsoft.com/en-us/help/4028644/windows-open-and-run-dxdiagexe)
-        on Windows. 
-  - type: input
-    id: java
-    attributes:
-      label: Java version
-      placeholder: 'Example: Java 16'
-    validations:
-      required: true
-  - type: input
-    id: cpu
-    attributes:
-      label: CPU
-      placeholder: 'Example: Intel Core i5-7200U'
-    validations:
-      required: true
-  - type: input
-    id: gpu
-    attributes:
-      label: GPU
-      placeholder: 'Example: Intel HD Graphics 620'
-    validations:
-      required: true
-  - type: textarea
-    id: additional
-    attributes:
-      label: Additional information
-      description: >-
-        Provide a list of any other mods you are using, along with their
-        respective versions. If you have any screenshots, videos, or other
-        information that you feel is necessary to explain the issue, feel free
-        to attach them here.
-        
+      required: true        
 
 ### Description
 ### <!-- Add a description of what you want the mod to do, attach images if necessary. -->
