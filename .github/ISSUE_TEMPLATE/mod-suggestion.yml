@@ -15,8 +15,6 @@ body:
     attributes:
       label: Mod loader
       description: >-
-
-      placeholder: 'Example: mc1.16.4-0.1.1+rev.4b3964a'
     validations:
       required: true
   - type: textarea
