@@ -113,12 +113,9 @@ body:
         
 
 ### Description
-
-<!-- Add a description of what you want the mod to do, attach images if necessary. -->
-
+### <!-- Add a description of what you want the mod to do, attach images if necessary. -->
 ### Details
-
-- Does a Forge version of this mod exist? <yes/no>
-    - If yes, what is the link to the github/curseforge? <link>
-- Does a Fabric version of this mod exist for an older MC version? <yes/no>
-    - If yes, what is the link to the github/curseforge? <link>
+### - Does a Forge version of this mod exist? <yes/no>
+###    - If yes, what is the link to the github/curseforge? <link>
+### - Does a Fabric version of this mod exist for an older MC version? <yes/no>
+###    - If yes, what is the link to the github/curseforge? <link>
