@@ -13,6 +13,9 @@ body:
         tool](https://github.com/martmists-gh/fabric-mod-wishlist/issues) to make sure you are not opening a duplicate?
   - type: dropdown
     attributes:
+      options:
+      - Forge
+      - Fabric
       label: Mod loader
       description: Froge
     validations:
