@@ -5,25 +5,17 @@ body:
   - type: markdown
     attributes:
       value: >-
-        ## Instructions
+        ## Description
 
-
-        Add a description of what you want the mod to do, attach images if necessary
+        Explain what you want the mod to do, attach images if necessary
 
         - Have you used the [search
-        tool](https://github.com/CaffeineMC/sodium-fabric/issues) to find
-        similar issues? If you find one that looks like what you are getting,
-        consider contributing additional information to it instead. Make sure
-        you are not opening a duplicate.
-
-  - type: input
-    id: version
+        tool](https://github.com/martmists-gh/fabric-mod-wishlist/issues) to make sure you are not opening a duplicate?
+  - type: dropdown
     attributes:
-      label: Version information
+      label: Mod loader
       description: >-
-        Please provide the exact version of the mod you are using. Every part of
-        the version is important! If you do not know what version you are using,
-        look at the file name in your `mods` folder.
+
       placeholder: 'Example: mc1.16.4-0.1.1+rev.4b3964a'
     validations:
       required: true
